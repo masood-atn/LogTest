@@ -11,36 +11,36 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("MYTAG","onCreate State");
+        Log.d("MYTAG", "onCreate State");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("MYTAG","onStart State");
+        Log.d("MYTAG", "onStart State");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("MYTAG","onResume State");
+        Log.d("MYTAG", "onResume State");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("MYTAG","onPause State");
+        Log.d("MYTAG", "onPause State");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("MYTAG","onStop State");
+        Log.d("MYTAG", "onStop State");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d("MYTAG","onDestroy State");
+        Log.d("MYTAG", "onDestroy State");
     }
 }
